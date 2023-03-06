@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Myproject.ConditionsDemo
+namespace Myproject.Assignment1.ConditionalAssignments
 {
     internal class PositiveNeg
     {

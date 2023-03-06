@@ -13,28 +13,28 @@ namespace Myproject.OOPS.Polymorphism
             Console.WriteLine("Area of Rectangle="+(length*breadth));
         }
          
-        public void Area(int radius)
+        public void Area(float pi,int radius)
         {
-            Console.WriteLine("AreaofCircle=" + (3.14) * radius * radius);
+            Console.WriteLine("AreaofCircle=" + (pi * radius * radius));
         }
 
-        public void Area(double side)
+        public void Area(int s)
         {
-            Console.WriteLine("Area of Square="+(side*side));
+            Console.WriteLine("Area of Square="+(s*s));
 
         }
 
-        public void Area(int b1,double h)
+        public void Area(int b1,float h)
         {
-            Console.WriteLine("Areaof Triangle="+ ((1 / 2)* h * b1));
+            Console.WriteLine("Areaof Triangle="+ ( b1 * h));
         }
        public static void Main(string[] args)
         {
             OverLoadArea oa = new OverLoadArea();
             oa.Area(2,3);
-            oa.Area(3);
-            oa.Area(2);
-            oa.Area(4,8);
+            oa.Area(3.14f,3);
+            oa.Area(5);
+            oa.Area(11,2.4f);
             
 
 

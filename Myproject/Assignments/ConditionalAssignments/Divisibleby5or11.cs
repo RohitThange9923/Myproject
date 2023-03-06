@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Myproject.ConditionsDemo.ConditionalAssignments
+namespace Myproject.Assignment1.ConditionalAssignments
 {
     internal class Divisibleby5or11
     {
@@ -25,4 +25,4 @@ namespace Myproject.ConditionsDemo.ConditionalAssignments
         }
     }
 }
-    
+

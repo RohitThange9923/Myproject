@@ -34,7 +34,7 @@ namespace Myproject.Loops
             }
             else
             {
-                Console.WriteLine("Not");
+                Console.WriteLine("Not Krishnamurthi");
             }
         }
     }

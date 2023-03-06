@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Myproject.ConditionsDemo.ConditionalAssignments
+namespace Myproject.Assignment1.ConditionalAssignments
 {
     internal class Vowels
     {
@@ -28,4 +28,3 @@ namespace Myproject.ConditionsDemo.ConditionalAssignments
         }
     }
 }
-  

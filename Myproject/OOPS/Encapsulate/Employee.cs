@@ -14,31 +14,33 @@ namespace Myproject.OOPS.Encapsulate
         int salary;
 
 
-        public int Id;
+        public int Id
         {
-                set
-                {
-                    id = value;
+            set
+            {
+                id = value;
 
-                }
-                     get
+            }
+            get
+            {
+                return id;
+            }
+        }
+          
+                        public string Name
                     {
-                     return id;
-                    }
-          }
-    public string Name;
-{
-    set
-    {
-        name = value;
+                        set
+                        {
+                            name = value;
 
-    }
-    get
-    {
-        return name;
+                        }
+                        get
+                        {
+                            return name;
 
-    }
-}
+                        }
+               }
+
 
 public int Salary
 
@@ -54,7 +56,7 @@ public int Salary
     }
    }
 }
-//class EncapsulatedDemo
+class EncapsulatedDemo
 {
     static void Main(string[] args)
     {
@@ -68,7 +70,8 @@ public int Salary
         Console.WriteLine(ename);
         Console.WriteLine(emp.Salary);
     }
-    }
+ }
+}
 
 
 
